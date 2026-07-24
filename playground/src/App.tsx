@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, KeyboardEvent } from 'react';
+import { useState, useRef, useEffect, type KeyboardEvent } from 'react';
 
 const Disclosure = ({ title, content }: { title: string; content: string }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
